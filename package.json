@@ -10,7 +10,8 @@
     "exports": {
         ".": {
             "require": "./dist/client.cjs",
-            "import": "./dist/client.js"
+            "import": "./dist/client.js",
+            "start": "node dist/index.js"
         }
     },
     "scripts": {
